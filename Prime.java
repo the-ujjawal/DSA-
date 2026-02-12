@@ -21,6 +21,7 @@ public class Prime {
         for(int div = 2; div * div <= n; div++) {
             if(n % div == 0){
                 count ++;
+                break;
             } 
         }
         if(count == 0){
