@@ -1,4 +1,4 @@
-💻 DSA Practice in Java
+💻 DSA Practice in Java.
 Hey! I'm starting my journey to master Data Structures and Algorithms (DSA) using Java.
 
 I'll be solving problems topic-wise, writing clean code with comments to understand the logic behind every solution.
