@@ -32,5 +32,6 @@ public class PythagoreanTriplets{
             System.out.println(flag);
 
         }
+        scn.close();
     }
 }
