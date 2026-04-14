@@ -26,7 +26,6 @@ public class Pattern5
                 sp++;
                 st -= 2;
             }
-
             System.out.println();
         }
     }
