@@ -8,7 +8,7 @@ public class P11 {
 
         for (int row = 1; row <= n; row++) {
             for (int col = 1; col <= sp; col++) {
-                System.out.print("-\t");
+                System.out.print("\t");
             }
             for (int col = 1; col <= row; col++) {
                 System.out.print(col + "\t");
