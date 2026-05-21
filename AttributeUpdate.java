@@ -1,4 +1,4 @@
-public class Bank {
+public class AttributeUpdate {
 
     public static void main(String[] args) {
 
