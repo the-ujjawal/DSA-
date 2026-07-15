@@ -45,7 +45,7 @@ public class LinearSearch{
     }
 
     public static void main(String[] args) {
-        int ar[] = {1,2,3,4,5,6};
+        int ar[] = {1,2,3,4,5,6};   
         boolean ans = findTarget(ar, 9);
         System.err.println(ans);
     }
