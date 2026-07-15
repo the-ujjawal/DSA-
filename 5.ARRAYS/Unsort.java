@@ -13,8 +13,6 @@ public class Unsort {
         int ar[] = {1,3,6,7,5};
 
         int ans = getUnsorted(ar);
-
         System.out.println(ans);
-
     }
 }
