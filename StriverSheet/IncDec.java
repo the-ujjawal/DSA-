@@ -41,6 +41,6 @@ public class IncDec {
             }
 
         }
-        System.out.print(arr[]);
+        System.out.print();
     }
 }

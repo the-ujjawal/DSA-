@@ -19,5 +19,6 @@ public class Frequency {
         for(int x : Freq.keySet()){
             System.out.println("key "+x+" value "+Freq.get(x));
         }
+        scn.close();
     }
 }
