@@ -15,16 +15,16 @@ public class HighFrequency {
         for(int x : arr){
             High.put(x,High.getOrDefault(x,0)+1);
         }
-        int key = 0;
-        int val = 0;
+        int maxElement = 0;
+        int maxFreq = 0;
 
-        for(int x : High.keySet()){
-            int curr = High.get(x);
-            if(val < curr){
-                val = curr;
-                key = x;
+        for(int key : High.keySet()){
+            int freq = High.get(key);
+            if(maxFreq < freq){
+                maxFreq = freq;
+                maxElement = key;
             }
         }
-        System.out.print("Key "+key+" value "+val);
+        System.out.print("Key "+maxFreq+" value "+maxElement);
     }        
 }
