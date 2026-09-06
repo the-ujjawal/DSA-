@@ -31,16 +31,17 @@ public class IncDec {
 
 
         Arrays.sort(arr);
+        
         int temp = 0;
-        for(int i = 0; i < n; i++){
-            if(i > n/2){
-                arr[i] = temp;
-                arr[i] = arr[n-1];
-                arr[n-1] = temp;
-                n--;
-            }
-
+        int t =n-1;
+        for (int i = n/2; i < n; i++) {
+            temp = arr[i];
+            arr[i] = arr[t];
+            arr[t] = temp;
         }
-        System.out.print();
+
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i]); 
+        }
     }
 }
